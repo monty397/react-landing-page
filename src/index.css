@@ -1,0 +1,132 @@
+* {
+    font-family: Garamond, serif;
+    height: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+h2 {
+    margin-top: 120px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+p {
+    font-size: 25px;
+    padding: 0;
+    margin: 5;
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+
+/* Container & child properties */
+
+.container {
+    width: 100%;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .container2 {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .container {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+.left-header {
+    background-color: rgba(0, 13, 255, 0.809);
+}
+
+.right-header {
+    background-color: rgb(174, 254, 193);
+}
+
+#left {
+    border-color: rgba(0, 13, 255, 0.809);
+}
+
+#right {
+    border-color: rgb(174, 254, 193);
+}
+
+.child {
+    margin: 50px 30px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: lightpink;
+    margin-right: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+
+/* Dark mode Button and CSS */
+
+.dark-button {
+    top: 50%;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 80px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+/* Img */
+
+.img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+
+/* Container for about */
+
+.container2 {
+    width: 100%;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    /* color: ; */
+}
+
+.child2 {
+    margin: 50px 30px;
+    text-align: center;
+    background-color: none;
+    margin-right: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+#child2 {
+    text-align: left;
+    font-size: 25px;
+    font-family: Garamond, serif;
+}
