@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={myFunction} className="dark-button">
-        Dark<br /> Mode <i class="far fa-lightbulb"></i>
+        Dark Mode<br /><i class="far fa-lightbulb"></i>
       </button>
       <Home />
       <About />
