@@ -6,4 +6,4 @@ This App was created using React, HTML/CSS
 
 You can View the App here
 
-https://akhil-react-page.netlify.app
+https://akhil-landing-page.netlify.app/
