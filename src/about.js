@@ -5,7 +5,7 @@ const About = () => {
       <h2>More about Akhil</h2>
       <div className="container2">
         <div className="child2">
-          <img src={Akhil} alt="ima of myself."/>
+          <img src={Akhil} alt="img of myself."/>
         </div>
         <div className="child2">
           <p id="child2">Born in Trinidad and Tobago, Akhil is a very enthuastic person who is willing to learn and perform at the best of his capacity in order to achieve any goal he wants to accomplish may it be individual or group goals. </p>
